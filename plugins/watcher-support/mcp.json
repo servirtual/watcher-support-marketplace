@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "watcher-support": {
+      "type": "streamable-http",
+      "url": "https://sence.servirtual.cl/api/mcp/action-status",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            },
+            "defaultScopes": [
+              "mcp:use"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

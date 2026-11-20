@@ -1,0 +1,20 @@
+{
+  "name": "watcher-support-marketplace",
+  "interface": {
+    "displayName": "Watcher Support"
+  },
+  "plugins": [
+    {
+      "name": "watcher-support",
+      "source": {
+        "source": "local",
+        "path": "./plugins/watcher-support"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business & Operations"
+    }
+  ]
+}

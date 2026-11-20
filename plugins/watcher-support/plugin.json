@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "watcher-support",
+  "version": "1.0.0",
+  "description": "Herramientas de soporte para consultar acciones SENCE, sincronizarlas y revisar la salud de Watcher.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Watcher Support",
+        "shortDescription": "Operación SENCE y firma DJ",
+        "longDescription": "Permite al equipo de soporte consultar acciones SENCE, revisar participantes y declaraciones juradas, forzar sincronizaciones autorizadas y diagnosticar la salud de la cola, Auther SENCE y firma DJ.",
+        "category": "Business & Operations",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Revisa la salud de Watcher y resume los problemas que requieren atención.",
+          "Consulta el estado del ID de acción que te indicaré.",
+          "Fuerza la sincronización del ID de acción que te indicaré."
+        ]
+      }
+    }
+  }
+}
