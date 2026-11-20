@@ -1,9 +1,9 @@
 ---
 name: watcher-support
-description: Usa las herramientas Watcher Support cuando el equipo de soporte necesite consultar acciones SENCE, declaraciones juradas, sincronizaciones o salud operativa.
+description: Usa las herramientas SENSON cuando el equipo de soporte necesite consultar acciones SENCE, declaraciones juradas, sincronizaciones o salud operativa.
 ---
 
-# Watcher Support
+# SENSON
 
 Usa `salud` para entregar un resumen operativo de la cola, Auther SENCE y las
 firmas DJ. Si algún componente no está saludable, indica el componente, el

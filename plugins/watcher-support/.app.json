@@ -1,0 +1,8 @@
+{
+  "apps": {
+    "watcher-support": {
+      "id": "plugin_asdk_app_6a6c0f0f0f6881919204864396bb3884",
+      "required": true
+    }
+  }
+}
